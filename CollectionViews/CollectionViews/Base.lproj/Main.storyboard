@@ -55,6 +55,10 @@
                                     <constraint firstAttribute="bottomMargin" secondItem="Dgr-fc-1NJ" secondAttribute="bottom" id="exe-UP-3y8"/>
                                     <constraint firstAttribute="trailing" secondItem="AA4-XT-iAR" secondAttribute="trailing" id="upK-VU-7Fl"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="stateFlagImageCell" destination="AA4-XT-iAR" id="bah-Pm-X3j"/>
+                                    <outlet property="stateNameLabel" destination="Dgr-fc-1NJ" id="toA-lk-8ai"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
