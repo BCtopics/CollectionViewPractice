@@ -13,6 +13,9 @@
 		6B2815A21EC3754B006D9E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2815A01EC3754B006D9E1E /* LaunchScreen.storyboard */; };
 		6B2815AC1EC37871006D9E1E /* StateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2815AB1EC37871006D9E1E /* StateCollectionViewController.swift */; };
 		6B2815AF1EC37890006D9E1E /* StateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2815AE1EC37890006D9E1E /* StateCollectionViewCell.swift */; };
+		6B2815B31EC37A00006D9E1E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2815B21EC37A00006D9E1E /* State.swift */; };
+		6B2815B51EC37A25006D9E1E /* StateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2815B41EC37A24006D9E1E /* StateHelper.swift */; };
+		6B2815B71EC37AD0006D9E1E /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2815B61EC37AD0006D9E1E /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6B2815A31EC3754B006D9E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2815AB1EC37871006D9E1E /* StateCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateCollectionViewController.swift; sourceTree = "<group>"; };
 		6B2815AE1EC37890006D9E1E /* StateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B2815B21EC37A00006D9E1E /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		6B2815B41EC37A24006D9E1E /* StateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateHelper.swift; sourceTree = "<group>"; };
+		6B2815B61EC37AD0006D9E1E /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				6B2815971EC3754B006D9E1E /* AppDelegate.swift */,
+				6B2815B01EC379D9006D9E1E /* Models */,
+				6B2815B11EC379E6006D9E1E /* ModelControllers */,
 				6B2815AD1EC3787C006D9E1E /* Views */,
 				6B2815AA1EC3757D006D9E1E /* ViewControllers */,
 				6B2815A91EC37577006D9E1E /* Resources */,
@@ -89,6 +97,23 @@
 				6B2815AE1EC37890006D9E1E /* StateCollectionViewCell.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		6B2815B01EC379D9006D9E1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B2815B21EC37A00006D9E1E /* State.swift */,
+				6B2815B41EC37A24006D9E1E /* StateHelper.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6B2815B11EC379E6006D9E1E /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B2815B61EC37AD0006D9E1E /* StateController.swift */,
+			);
+			name = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2815B51EC37A25006D9E1E /* StateHelper.swift in Sources */,
+				6B2815B71EC37AD0006D9E1E /* StateController.swift in Sources */,
 				6B2815AC1EC37871006D9E1E /* StateCollectionViewController.swift in Sources */,
 				6B2815AF1EC37890006D9E1E /* StateCollectionViewCell.swift in Sources */,
 				6B2815981EC3754B006D9E1E /* AppDelegate.swift in Sources */,
+				6B2815B31EC37A00006D9E1E /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
